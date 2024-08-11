@@ -1,0 +1,22 @@
+.tbt-primary-btn {
+    background-color: blue;
+    background: linear-gradient(271deg, #269cce 0.14%, #2b3990 97.85%);
+    color: white !important;
+    border-radius: 4px;
+  
+    > img {
+      margin-right: 11px;
+      float: left;
+      position: relative;
+      top: 2px;
+    }
+  
+    &:hover {
+      box-shadow: 0 0 8px btn-shadow;
+    }
+  
+    &:disabled,
+    &.disabled {
+      opacity: 0.66 !important;
+    }
+  }
